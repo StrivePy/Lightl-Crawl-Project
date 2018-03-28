@@ -1,3 +1,3 @@
-# My Awesome Book
+# 分析Ajax请求并抓取今日头条街拍美图
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+打开今日头条，并搜索**街拍**，分析网页请求，拿到图集中所有以**组图**形式展示的图片，并将图集的标题、url和具体图片拿到，然后将每个图集的标题、url以及图集中每张图片的url存入Mongodb，最后将每个图集中的单张图片保存到本地。
